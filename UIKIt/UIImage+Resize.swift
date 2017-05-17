@@ -24,14 +24,14 @@ extension UIImage {
 	}
 	
 	/**
-	Produce new image of specified `size` resized with specified `options` and `backgroundColor`.
+	Produces new image of specified `size` resized with specified `options` and `backgroundColor`.
 	
 	- parameter size: Desire image size.
 	- parameter options: Resize options. Default `options` are `[.scale, .center]`.
 	If `options` are ambiguous, then default `options` will be applied.
 	- parameter backgroundColor: Background color for new image.
 	
-	- returns: Resized image
+	- returns: Resized image.
 	*/
 	func resized(to size: CGSize, with options: ResizeOptions = [.scale, .center], background backgroundColor: UIColor? = nil) -> UIImage? {
 		
@@ -90,7 +90,7 @@ extension UIImage {
 	}
 	
 	/**
-	Asynchronously produce new image of specified `size` resized with specified `options` and `backgroundColor`.
+	Asynchronously produces new image of specified `size` resized with specified `options` and `backgroundColor`.
 	
 	- parameter size: Desire image size
 	- parameter options: Resize options. Default `options` are `[.scale, .center]`.

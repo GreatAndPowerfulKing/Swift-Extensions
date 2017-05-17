@@ -11,7 +11,7 @@ import UIKit
 extension UIColor {
 	
 	/**
-	Initialize `UIColor` from the hexadecimal representation
+	Initializes and returns a color object using the specified hexadecimal representation.
 	
 	- parameter argb: number with the following format 0xAARRGGBB
 	*/
@@ -23,7 +23,7 @@ extension UIColor {
 	}
 	
 	/**
-	Initialize `UIColor` from the hexadecimal representation
+	Initializes and returns a color object using the specified hexadecimal representation.
 	
 	- parameter rgb: number with the following format 0xRRGGBB
 	- parameter alpha: alpha component
